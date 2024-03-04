@@ -30,14 +30,20 @@
         }
 
         .fotos {   
-            width: 100%;
-            padding-top: 1%;
+            width: 50%;
             display: flex;
         }
 
         .actor{
-            width: 50%;
+            width: 100%;
         }
+
+        #actores{
+            width: 100%;
+            display: flex;
+            text-align: center;
+        }
+
     </style>
 </head>
 
@@ -55,9 +61,13 @@
         algunos pasos prohibidos de su infame baile en '<a href="https://www.youtube.com/watch?v=e5wUilOeOmg">Spider-Man 3</a>'.</p>
         <img class="imagen" src="./img/foto1.jpeg" alt="foto2">
         <img class="imagen" src="./img/foto2.jpeg" alt="foto3">
-        <section>
-            <div class="fotos"><img src="./img/Tom_Holland.webp" class="actor" alt="Tom Holland">Tom Holland</div>
-            <div class="fotos"><img src="./img/Zendaya.webp" class="actor" alt="Zendaya">Zendaya</div>
+        <section id="actores">
+            <section class="fotos">
+                <div><img src="./img/Tom_Holland.webp" class="actor" alt="Tom Holland">Tom Holland</div>
+            </section>
+            <section class="fotos">
+                <div><img src="./img/Zendaya.webp" class="actor" alt="Zendaya">Zendaya</div>
+                </section>
         </section>
     </section>
     <section id="columna2"></section>
